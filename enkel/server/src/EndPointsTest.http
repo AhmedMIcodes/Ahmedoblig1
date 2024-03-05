@@ -1,0 +1,29 @@
+GET http://localhost:8080/ready
+Content-Type: application/json
+
+{
+
+}
+
+###
+PUT http://localhost:8080/start
+Content-Type: application/json
+
+{
+  "player": "Nord"
+}
+
+###
+POST http://localhost:8080/arrive
+Content-Type: application/json
+
+{
+  "player": "Nord"
+}
+###
+DELETE http://localhost:8080/leave
+Content-Type: application/json
+
+{
+  "player": "Nord"
+}
